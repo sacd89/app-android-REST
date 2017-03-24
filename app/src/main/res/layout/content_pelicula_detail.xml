@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pelicula_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    tools:context="com.dsantillanes.ejemploapi.PeliculaDetail">
+
+
+    <TextView
+        android:text="Nombre:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textView" />
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/txtNombre" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edNombre"
+        android:enabled="false"/>
+
+    <TextView
+        android:text="Descripción:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textView3" />
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/txtDescripcion" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edDescripcion"
+        android:enabled="false" />
+
+    <TextView
+        android:text="Año:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textView5" />
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/txtAno" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edYear"
+        android:enabled="false"/>
+
+
+    <TextView
+        android:text="Genero:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textView7" />
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/txtGenero" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edGenero"
+        android:enabled="false"/>
+
+
+    <TextView
+        android:text="Director:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textView9" />
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/txtDirector" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edDirector"
+        android:enabled="false"/>
+
+
+    <TextView
+        android:text="Actor Principal:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textView10" />
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/txtActor" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edActor"
+        android:enabled="false"/>
+
+
+    <Button
+        android:text="Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditarGuardar"
+        android:visibility="invisible"/>
+
+</LinearLayout>

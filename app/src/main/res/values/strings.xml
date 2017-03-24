@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FILMWARE</string>
+    <string name="title_activity_main2">FILMWARE</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_pelicula_add">Agregar Pelicula</string>
+    <string name="title_activity_thing">ThingActivity</string>
+</resources>
